@@ -1,0 +1,6 @@
+function check(correct){
+  const result = document.getElementById("result");
+  result.textContent = correct 
+    ? "Correct! Bees help in pollination 🌼"
+    : "Wrong! Try again ❌";
+}
