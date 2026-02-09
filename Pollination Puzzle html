@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pollination Puzzle</title>
+</head>
+<body>
+  <h2>🌼 Pollination Puzzle</h2>
+  <p>Who helps in pollination?</p>
+
+  <button onclick="check(true)">Bee 🐝</button>
+  <button onclick="check(false)">Dog 🐕</button>
+  <button onclick="check(false)">Fish 🐟</button>
+
+  <p id="result"></p>
+
+  <script>
+    function check(correct){
+      document.getElementById("result").innerText =
+        correct ? "Correct! Bees pollinate flowers 🌸" : "Try again!";
+    }
+  </script>
+</body>
+</html>
